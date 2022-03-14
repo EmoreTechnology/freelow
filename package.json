@@ -22,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "husky install src/.husky"
+    "postinstall": "husky install src/.husky",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
