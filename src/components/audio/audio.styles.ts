@@ -10,7 +10,6 @@ export const Container = styled.div`
   padding: 0 32px;
   box-shadow: 0px 42px 79px 0 rgba(0, 0, 0, 0.16);
   background-color: #fff;
-
   margin-top: 50px;
 
   > img {

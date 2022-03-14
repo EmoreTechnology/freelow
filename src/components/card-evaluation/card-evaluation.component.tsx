@@ -14,7 +14,6 @@ import iconRed from "../../assets/red-icon-blur.jpg";
 const CardEvaluation: React.FC<ICardEvaluation> = ({
   description,
   name,
-
   profession,
   thumbnail,
 }) => {

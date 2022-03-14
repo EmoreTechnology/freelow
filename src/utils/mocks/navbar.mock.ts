@@ -7,7 +7,6 @@ export const NavbarMock = {
   hrefAssessments: "#evaluation",
   contact: "Contato",
   hrefContact: "#contact",
-
   register: "Cadastre-se",
   hrefRegister: "#register",
 };

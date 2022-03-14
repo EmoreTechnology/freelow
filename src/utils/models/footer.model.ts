@@ -3,6 +3,5 @@ export interface IFooterProps {
   contactUs: string;
   seeNetwork: string;
   newsFirst: string;
-
   newsLast: string;
 }

@@ -20,12 +20,6 @@ margin-top: 15px;
 	justify-content: space-between;
 } 
 
-
-
-
-
-
-
 @media (min-width: 1024px) {
   margin: 40px 0;
 } 
