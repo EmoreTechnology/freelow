@@ -8,15 +8,15 @@ export const Container = styled.div`
   .video.playing {
     display: flex;
     position: absolute;
-		max-width: 719px;
+    max-width: 719px;
     width: 200px;
     height: 200px;
     z-index: 1;
 
-		@media (min-width: 1024px) {
-			width: 392px;
-    	height: 363px;
-		}
+    @media (min-width: 1024px) {
+      width: 392px;
+      height: 363px;
+    }
 
     > video {
       border-radius: 26px;
@@ -33,17 +33,17 @@ export const Container = styled.div`
       align-items: center;
       cursor: pointer;
 
-			@media (min-width: 1024px) {
-				width: 718px;
-			}
-      
-			.video-control {
+      @media (min-width: 1024px) {
+        width: 718px;
+      }
+
+      .video-control {
         width: 55px;
         transition: opacity 200ms linear;
 
-				@media (min-width: 1024px) {
-					width: 100px;
-				}
+        @media (min-width: 1024px) {
+          width: 100px;
+        }
       }
       .control-shown {
         opacity: 1;
@@ -59,17 +59,17 @@ export const Container = styled.div`
   > .video.no-playing {
     display: flex;
     position: relative;
-   	max-width: 519px;
+    max-width: 519px;
     width: 100%;
     height: 100%;
 
     > video {
       border-radius: 26px;
-			width: 100%;
+      width: 100%;
 
-			@media (min-width: 1024px) {
-				width: 718px;
-			}
+      @media (min-width: 1024px) {
+        width: 718px;
+      }
     }
 
     > .controls {
@@ -82,18 +82,18 @@ export const Container = styled.div`
       justify-content: center;
       align-items: center;
       cursor: pointer;
-			
-			@media (min-width: 1024px) {
-				width: 718px;
-			}
 
-			.video-control {
+      @media (min-width: 1024px) {
+        width: 718px;
+      }
+
+      .video-control {
         width: 55px;
         transition: opacity 200ms linear;
 
-				@media (min-width: 1024px) {
-					width: 100px;
-				}
+        @media (min-width: 1024px) {
+          width: 100px;
+        }
       }
 
       .control-shown {

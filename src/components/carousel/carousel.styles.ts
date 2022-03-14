@@ -4,10 +4,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-	height: 125%;
+  height: 125%;
 
-	.swiper {
-		width: 1233px;
+  .swiper {
+    width: 1233px;
     height: 100%;
 
     @media (min-width: 1024px) {

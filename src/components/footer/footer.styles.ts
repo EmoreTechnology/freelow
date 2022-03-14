@@ -17,7 +17,7 @@ export const Container = styled.div`
     }
 
     @media (min-width: 1440px) {
-			padding: 120px 182px;
+      padding: 120px 182px;
     }
   }
 
@@ -54,7 +54,7 @@ export const Container = styled.div`
     width: 100%;
     max-width: 214px;
     flex-direction: column;
-		align-items: flex-start;
+    align-items: flex-start;
 
     span {
       width: 109px;

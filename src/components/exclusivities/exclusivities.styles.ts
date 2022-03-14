@@ -26,7 +26,7 @@ export const Container = styled.div`
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
-			margin: 380px 150px 0 0;
+      margin: 380px 150px 0 0;
 
       > h2 {
         font-size: 8px;

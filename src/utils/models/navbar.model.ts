@@ -6,6 +6,7 @@ export interface INavbarProps {
   assessments: string;
   hrefAssessments: string;
   contact: string;
+
   hrefContact: string;
   register: string;
   hrefRegister: string;

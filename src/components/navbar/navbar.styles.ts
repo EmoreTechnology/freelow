@@ -5,42 +5,42 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-	align-items: center;
-	width: 100%;
+  align-items: center;
+  width: 100%;
 
-	@media (min-width: 1024px) {
-		flex-direction: row;
-		width: 100%;
-	}
-	
-	img {
-		width: 250px;
-		margin: 10px;
-	}
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    width: 100%;
+  }
 
-	.section {
+  img {
+    width: 250px;
+    margin: 10px;
+  }
+
+  .section {
     display: flex;
     flex-direction: column;
     align-items: end;
-		justify-content: center;
-		width: 100%;
-		
-		@media (min-width: 1024px) {
-			flex-direction: row;
-    	align-items: center;
-			width: 100%;
-		}
+    justify-content: center;
+    width: 100%;
+
+    @media (min-width: 1024px) {
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+    }
   }
 
   a {
     font-size: 8px;
     text-decoration: none;
-    font-family: 'Poppins';
-    color:#4b4545;
+    font-family: "Poppins";
+    color: #4b4545;
     padding: 5px 5px;
     border-radius: 19.5px;
 
-    @media (min-width:768px) {
+    @media (min-width: 768px) {
       font-size: 12px;
       padding: 5px 15px;
       margin: 0;
@@ -55,20 +55,20 @@ export const Container = styled.div`
 
     @media (min-width: 768px) {
       margin: 0 15px;
-	    width: 100%;
+      width: 100%;
     }
 
-		@media(min-width: 1024px) {
-			width: 589px;
-		}
+    @media (min-width: 1024px) {
+      width: 589px;
+    }
 
-		@media (min-width: 1440px) {
-			width: 100%;
-		}
+    @media (min-width: 1440px) {
+      width: 100%;
+    }
 
-		@media (min-width: 1820px) {
-			margin: 0 185px;
-		}
+    @media (min-width: 1820px) {
+      margin: 0 185px;
+    }
 
     a {
       font-size: 9px;

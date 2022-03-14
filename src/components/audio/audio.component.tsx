@@ -7,6 +7,7 @@ import { Container } from "./audio.styles";
 
 // Assets
 import light from "../../assets/ondas-sonoras-light.png";
+
 import medium from "../../assets/ondas-sonoras-medium.png";
 import dark from "../../assets/ondas-sonoras-dark.png";
 

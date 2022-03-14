@@ -18,7 +18,7 @@ export const Container = styled.div`
 
     @media (min-width: 1024px) {
       margin: 0 100px 0 80px;
-			height: 500px;
+      height: 500px;
     }
 
     @media (min-width: 1440px) {
@@ -108,7 +108,7 @@ export const Container = styled.div`
       @media (min-width: 768px) {
         font-size: 12px;
         line-height: 1.73;
-				width: 600px;
+        width: 600px;
       }
 
       @media (min-width: 1024px) {

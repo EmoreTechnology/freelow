@@ -31,7 +31,6 @@ const Header: React.FC = () => {
             <div className="boll">
               <img src={check} alt="" />
             </div>
-
             <span>__</span>
             Enconte o <span className="Palavra">projeto perfeito</span> para
             trabalhar e se desenvolver

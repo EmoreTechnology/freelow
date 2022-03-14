@@ -22,6 +22,7 @@ export const CardEvaluationMock = [
     id: 3,
     thumbnail: icon,
     name: "João da silva",
+
     profession: "Bertha Capital",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae pulvinar ipsum. Praesent eu massa lorem. Phasellus volutpat ligula ac nunc maximus ornare. Suspendisse el justo eget odio.",
@@ -33,16 +34,16 @@ export const CardEvaluationMock = [
     profession: "Bertha Capital",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae pulvinar ipsum. Praesent eu massa lorem. Phasellus volutpat ligula ac nunc maximus ornare. Suspendisse el justo eget odio.",
-  },  
-	{
+  },
+  {
     id: 5,
     thumbnail: icon,
     name: "João da silva",
     profession: "Bertha Capital",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae pulvinar ipsum. Praesent eu massa lorem. Phasellus volutpat ligula ac nunc maximus ornare. Suspendisse el justo eget odio.",
-  }, 
-	{
+  },
+  {
     id: 6,
     thumbnail: icon,
     name: "João da silva",
@@ -50,7 +51,7 @@ export const CardEvaluationMock = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae pulvinar ipsum. Praesent eu massa lorem. Phasellus volutpat ligula ac nunc maximus ornare. Suspendisse el justo eget odio.",
   },
-	 {
+  {
     id: 7,
     thumbnail: icon,
     name: "João da silva",

@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   @media (min-width: 1024px) {
     max-width: 879px;
-		left: 58px;
+    left: 58px;
   }
 
   > .icon-red {
@@ -18,6 +18,7 @@ export const Container = styled.div`
     object-fit: contain;
     width: 15px;
     bottom: 110px;
+
     left: 180px;
 
     @media (min-width: 1024px) {

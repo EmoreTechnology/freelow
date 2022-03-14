@@ -17,30 +17,30 @@ import { CardEvaluationMock } from "../../utils/mocks/card-evaluation.mock";
 SwiperCore.use([Navigation, Pagination]);
 
 const SlideEvaluation: React.FC = () => {
-	return (
-		<Container>
-			<Swiper
-				slidesPerView={2}
-				spaceBetween={58}
-				pagination={{
-					clickable: true,
-				}}
-				modules={[Pagination, Navigation]}
-				navigation
-			>
-				{CardEvaluationMock.map((item) => (
-					<SwiperSlide key={item.id}>
-						<CardEvaluation
-							name={item.name}
-							profession={item.profession}
-							description={item.description}
-							thumbnail={item.thumbnail}
-						/>
-					</SwiperSlide>
-				))}
-			</Swiper>
-		</Container>
-	);
+  return (
+    <Container>
+      <Swiper
+        slidesPerView={2}
+        spaceBetween={58}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination, Navigation]}
+        navigation
+      >
+        {CardEvaluationMock.map((item) => (
+          <SwiperSlide key={item.id}>
+            <CardEvaluation
+              name={item.name}
+              profession={item.profession}
+              description={item.description}
+              thumbnail={item.thumbnail}
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </Container>
+  );
 };
 
 export default SlideEvaluation;
